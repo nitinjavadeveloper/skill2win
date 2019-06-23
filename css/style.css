@@ -1,0 +1,328 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+
+{
+	font-size: 1.3rem;
+	overflow-x: hidden;
+
+	font-family: 'Roboto',sans-serif;
+}
+
+header
+{
+	/*background-image:  url(../images/banner-img.jpg);*/
+	
+	background-color: black;
+	overflow: hidden;
+
+}
+
+.row
+
+{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.div-logo
+
+{
+float: left;
+margin: 10px 50px 0 100px;
+}
+
+.div-logo> img{
+	width: 130px;
+}
+
+.clearfix:after
+
+{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+}
+
+nav{
+	margin-top: 85px;
+}
+
+.main-nav
+
+{
+	position: relative;
+}
+
+.main-nav li
+
+{
+	display: inline-block;
+	list-style: none;
+	
+
+	 border-right: 2px solid grey;
+
+}
+
+.main-nav li:last-child{
+	border-right: none;
+}
+
+.main-nav li a
+
+{
+	color: #fff;
+	text-decoration: none;
+	/*text-transform: uppercase;*/
+	font-size: 80%;
+		 padding :15px;
+		 display: block;
+	font-weight: 70;
+	transition: background-color 0.16s ,border 0.19s ,color 0.19s;
+
+}
+
+
+.main-nav li a:hover{
+		background-color: transparent;
+
+	background-color: red;
+}
+.banner-img > img
+{
+	width: 100%;
+	height: 80%;
+	position: relative;
+}
+
+.contact-logo{
+	float: right;
+
+	margin: 40px 40px 0px 0px;
+}
+
+.contact-logo > a
+{
+	padding: 0px 30px;
+	margin-top: -15px;
+	margin-right: 40px;
+	text-decoration: none;
+	border-radius: 40px;
+
+	background-color: #056334;
+	color: white;
+	vertical-align: middle;
+	display: block;
+	line-height: 40px;
+
+}
+
+/*contact logo image*/
+
+.contact-logo>a > img{
+	display: inline-block;
+}
+
+/*contact logo text color*/
+
+header.contact-logo a 
+
+{
+	color: #fff;
+}
+
+/* section-container css*/
+
+.section-container
+
+{
+	margin: 60px 0px 90px 90px;
+}
+
+/* content heading css*/
+.content > h2
+
+{
+	margin: -378px 105px 68px 534px;
+	color: green;
+}
+
+/* content paragraph css*/
+.content > p
+
+{
+	margin: -39.8px 9px 68px 534px;
+	font-size: 20px;
+}
+
+span
+{
+	color: red;
+}
+
+
+/* section 2 heading css*/
+
+.section-container2 >h2
+{
+	text-align: center;
+	color: red;
+	border: bottom;
+}
+
+
+/* li active pseudo class*/
+
+li .active
+
+{
+	background: red;
+	color: white;
+}
+
+/* heading navigation-description */
+
+ h2.nav-desc
+
+ {
+ 	 position: absolute;
+ 	 color: white;
+ 	 margin-left: 30%;
+    top: 589px
+   	
+ }
+
+
+
+ h2 >span
+
+ {
+ 	color: green;
+ 	text-align: center;
+ }
+
+
+
+/* column class inside the match-video class*/
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+h2>span.match
+
+{
+	color: red;
+	text-align: center;
+}
+
+.accessories-container
+
+{
+	margin-top: 30px;
+}
+
+.column1 {
+  float: left;
+  width: 20.33%;
+  padding: 10px;
+  margin:20px 20px 30px 40px;
+   border: 8px solid #ccc;
+}
+
+.about-section > h2
+
+{
+	text-align: center;
+	border-bottom:  1px solid #ccc;
+	margin: 10px 20px 30px 40px;
+}
+
+.about-section>p
+
+{
+
+	margin: 11px 258px 54px 267px;
+	font-size: 20px;
+
+}
+
+.about-section >a
+
+{
+	
+	text-decoration: none;
+	border-radius: 10px;
+
+	background: red;
+	color: white;
+	
+	display: inline-block;
+	line-height: 40px;
+	margin-left: 45%;
+}
+
+
+footer
+
+{
+	background: black;
+	padding: 30px;
+	margin-top: 20px;
+
+}
+
+
+.footer li 
+
+{
+	display: inline-block;
+	list-style: none;
+	
+
+	 border-right: 2px solid grey;
+}
+
+.footer li a
+
+{
+color: #fff;
+	text-decoration: none;
+	/*text-transform: uppercase;*/
+	font-size: 80%;
+	margin: -8px 66px 1px 22px;
+	 padding :5px;
+	 display: inline-block;
+	font-weight: 70;
+}
+.footer li a:hover
+
+{
+	background-color: transparent;
+
+	background-color: red;
+}
+
+
+.footer li:last-child{
+	border-right: none;
+}
+
+footer> p
+
+{
+  margin: 38px 27px 46px 518px;
+ 	
+      font-size: 12px;
+	color: white;
+	border: 2px solid black;
+}

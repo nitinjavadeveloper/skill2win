@@ -1,0 +1,69 @@
+
+@media only screen and (max-width: 768px) {
+ 
+	body
+	{
+		font-size: 14px;
+
+	}
+
+	.section-container
+
+	{
+		display: none;
+	}
+
+.accessories-container 
+
+{
+		margin-top: 30px;
+
+}
+ 
+ h2>span
+
+ {
+ 	display: none;
+ }
+
+ footer >p
+
+ {
+ 	text-align: center;
+ }
+
+.column1
+
+{
+	 float: left;
+  width: auto;
+  padding: 10px;
+  margin:20px 20px 30px 40px;
+   border: 2px solid #ccc;
+}
+.about-section
+
+{
+	margin-left: 27%;
+
+}
+
+.about-section p
+
+{
+	display: none;
+
+}
+	/*footer li a 
+
+	{
+		display: none;
+	}*/
+
+}
+
+
+@media (min-width: 1281px) {
+  
+  
+}
