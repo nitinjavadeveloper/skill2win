@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Task</title>
+<link rel="stylesheet" type="text/css" href="css/form.css">
+	<script src="js/myjs.js"></script>
+
+</head>
+<body>
+
+	<div class="form-container">
+
+		<div class="clear_fix">	
+			<form name="myForm" onsubmit="return validateForm()" method="POST">
+		<div class="label_column">
+			<label>First Name</label>
+
+		</div>
+
+		<div class="input_column">
+			<input type="text" name="fname" placeholder="Your Name More than 6 Characters...">
+			<span id="fprint"></span>
+		</div>
+
+	</div>
+	<div class="clear_fix">
+		<div class="label_column">
+			<label>Last Name</label>
+
+		</div>
+
+		<div class="input_column">
+			<input type="text" name="lname" placeholder="Last Name More 6 Characters...">
+			<span id="lprint"></span>
+		</div>
+		</div>
+		<div class="clear_fix">
+		<div class="label_column">
+			<label>Email</label>
+
+		</div>
+
+
+		<div class="input_column">
+			<input type="email" name="email" placeholder="Your Email...">
+			<span id="pemail"></span>
+		</div>
+
+		</div>
+		<div class="clear_fix">
+
+		<div class="label_column">
+			<label>Decription</label>
+
+		</div>
+
+		<div class="input_column">
+			 <textarea name="des" placeholder="Your Decription..." style="height:200px;width: 480px;"></textarea>
+			<span id="pdec"></span>
+		</div>
+</div>
+	
+	<div class="clear_fix">
+
+		<div class="input_column">
+			<input type="submit" value="Submit">
+			<a href="index.html">Home</a>
+		</div>
+			
+		
+
+	</div>
+</form>	
+	</div>
+</body>
+</html>

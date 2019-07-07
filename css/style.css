@@ -52,7 +52,7 @@ margin: 10px 50px 0 100px;
 }
 
 nav{
-	margin-top: 85px;
+    margin-top: 105px;
 }
 
 .main-nav
@@ -66,10 +66,8 @@ nav{
 {
 	display: inline-block;
 	list-style: none;
-	
-
 	 border-right: 2px solid grey;
-
+	 /*margin-bottom: 2px;*/
 }
 
 .main-nav li:last-child{
@@ -83,11 +81,9 @@ nav{
 	text-decoration: none;
 	/*text-transform: uppercase;*/
 	font-size: 80%;
-		 padding :15px;
-		 display: block;
+ padding: 14px 16px;
 	font-weight: 70;
-	transition: background-color 0.16s ,border 0.19s ,color 0.19s;
-
+	margin-bottom: 1px;
 }
 
 
@@ -129,6 +125,7 @@ nav{
 
 .contact-logo>a > img{
 	display: inline-block;
+	vertical-align: middle;
 }
 
 /*contact logo text color*/
@@ -144,8 +141,10 @@ header.contact-logo a
 .section-container
 
 {
-	margin: 60px 0px 90px 90px;
+	    margin: 62px 66px 142px 82px;
 }
+
+
 
 /* content heading css*/
 .content > h2
@@ -153,6 +152,7 @@ header.contact-logo a
 {
 	margin: -378px 105px 68px 534px;
 	color: green;
+	font-size: 30px;
 }
 
 /* content paragraph css*/
@@ -163,20 +163,32 @@ header.contact-logo a
 	font-size: 20px;
 }
 
-span
+.section-container2 >h3
 {
-	color: red;
+	width:100%; 
+    text-align:center; 
+    border-bottom: 1px solid black; 
+    line-height:0.1em; 
+     margin:10px 0 20px;
+
 }
 
-
+h3 >span
+{
+	color: red;
+	font-size: 34px;
+    background-color: white;
+    padding: 0 10px;
+}
 /* section 2 heading css*/
-
+/*
 .section-container2 >h2
 {
 	text-align: center;
 	color: red;
 	border: bottom;
-}
+}*/
+
 
 
 /* li active pseudo class*/
@@ -207,45 +219,73 @@ li .active
  {
  	color: green;
  	text-align: center;
+ 	font-size: 40px;
  }
 
+.match-video
 
+{
+	margin-top: 30px;
+}
 
 /* column class inside the match-video class*/
 .column {
   float: left;
-  width: 33.33%;
-  padding: 15px;
+  width: 28.33%;
+  /*padding: 4px;*/
+ /* margin-left: 29px;
+  margin-right: 20px;*/
+  margin:  35px -2px 22px 50px;
 }
 
-h2>span.match
+
+
+.accessoris-text 
+{
+	
+	text-align: center;
+	color: red;
+	font-size: 30px;
+	border-bottom: 1px solid black; 
+     line-height:0.1em; 
+  
+
+	            
+}
+
+ .accessoris-text>h4 
 
 {
-	color: red;
-	text-align: center;
+	background-color: white;
+    padding: 0 10px;
+    margin-top: 70px;
 }
-
 .accessories-container
 
 {
-	margin-top: 30px;
+	margin-top: 40px;
 }
 
 .column1 {
   float: left;
   width: 20.33%;
   padding: 10px;
-  margin:20px 20px 30px 40px;
+  margin:20px -39px 30px 79px;
    border: 8px solid #ccc;
 }
 
-.about-section > h2
+.about-section > h3
 
 {
 	text-align: center;
 	border-bottom:  1px solid #ccc;
-	margin: 10px 20px 30px 40px;
+	width:100%; 
+    text-align:center; 
+    border-bottom: 1px solid black; 
+    line-height:0.1em; 
+     margin:10px 0 20px;
 }
+
 
 .about-section>p
 
@@ -277,46 +317,40 @@ footer
 
 {
 	background: black;
-	padding: 30px;
+	padding: 20px;
 	margin-top: 20px;
+
 
 }
 
 
-.footer li 
+.footer li
 
 {
 	display: inline-block;
 	list-style: none;
-	
-
 	 border-right: 2px solid grey;
+	 /*margin-bottom: 2px;*/
+}
+
+.footer li:last-child{
+	border-right: none;
 }
 
 .footer li a
 
 {
-color: #fff;
+	color: #fff;
 	text-decoration: none;
 	/*text-transform: uppercase;*/
 	font-size: 80%;
-	margin: -8px 66px 1px 22px;
-	 padding :5px;
-	 display: inline-block;
+    padding: 14px 16px;
 	font-weight: 70;
-}
-.footer li a:hover
 
-{
-	background-color: transparent;
-
-	background-color: red;
+	margin: 36px 27px 35px 43px;
+	
 }
 
-
-.footer li:last-child{
-	border-right: none;
-}
 
 footer> p
 
@@ -326,4 +360,10 @@ footer> p
       font-size: 12px;
 	color: white;
 	border: 2px solid black;
+}
+
+footer li >a 
+
+{
+	color: red;
 }
