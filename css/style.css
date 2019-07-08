@@ -26,7 +26,6 @@ header
 .row
 
 {
-	max-width: 1180px;
 	margin: 0 auto;
 }
 
@@ -81,15 +80,13 @@ nav{
 	text-decoration: none;
 	/*text-transform: uppercase;*/
 	font-size: 80%;
- padding: 14px 16px;
+ 	padding: 14px 16px;
 	font-weight: 70;
 	margin-bottom: 1px;
 }
 
 
 .main-nav li a:hover{
-		background-color: transparent;
-
 	background-color: red;
 }
 .banner-img > img
@@ -225,6 +222,7 @@ li .active
 .match-video
 
 {
+	overflow: hidden;
 	margin-top: 30px;
 }
 
@@ -248,7 +246,7 @@ li .active
 	font-size: 30px;
 	border-bottom: 1px solid black; 
      line-height:0.1em; 
-  
+     margin-top: 50px;
 
 	            
 }
